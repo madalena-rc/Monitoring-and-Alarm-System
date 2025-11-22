@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">g05part1</string>
+    <string name="start_readings">Start Readings</string>
+    <string name="configurations_manager">Configurations Manager</string>
+    <string name="access_repository">Access Repository</string>
+    <string name="temperature_c">Temperature: -- °C</string>
+    <string name="humidity">Humidity: -- %</string>
+    <string name="luminosity_lux">Luminosity: -- lux</string>
+    <string name="timestamp">Timestamp: --</string>
+    <string name="disable_notifications">Disable Notifications</string>
+    <string name="config_temperature_c">Temperature (°C)</string>
+    <string name="config_min_temperature_c">Min Temperature (°C)</string>
+    <string name="config_max_temperature_c">Max Temperature (°C)</string>
+    <string name="config_relative_humidity">Relative Humidity (%)</string>
+    <string name="config_min_humidity">Min Humidity (%)</string>
+    <string name="config_max_humidity">Max Humidity (%)</string>
+    <string name="config_luminosity_lux">Luminosity (lux)</string>
+    <string name="config_min_luminosity_lux">Min Luminosity (lux)</string>
+    <string name="config_max_luminosity_lux">Max Luminosity (lux)</string>
+    <string name="save_settings">Save Settings</string>
+    <string name="sensor_history">Sensor History</string>
+    <string name="rep_temperature_c">Temperature (°C)</string>
+    <string name="rep_relative_humidity">Relative Humidity (%)</string>
+    <string name="rep_luminosity_lux">Luminosity (lux)</string>
+</resources>

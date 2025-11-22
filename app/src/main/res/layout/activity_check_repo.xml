@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Toolbar: full width, no padding -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbarRepo"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:titleTextColor="@android:color/white"
+        android:title="@string/sensor_history"/>
+
+    <!-- Container for readings with horizontal padding -->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
+        android:paddingTop="12dp">
+
+        <!-- Temperature Section -->
+        <TextView
+            android:id="@+id/titleTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rep_temperature_c"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/textTemperature"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:typeface="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Humidity Section -->
+        <TextView
+            android:id="@+id/titleHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rep_relative_humidity"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/textHumidity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:typeface="monospace"
+            android:layout_marginBottom="8dp"/>
+
+        <!-- Luminosity Section -->
+        <TextView
+            android:id="@+id/titleLuminosity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rep_luminosity_lux"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:layout_marginBottom="2dp"/>
+
+        <TextView
+            android:id="@+id/textLuminosity"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="16sp"
+            android:gravity="start"
+            android:typeface="monospace"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+</LinearLayout>
